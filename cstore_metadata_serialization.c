@@ -14,8 +14,8 @@
 
 
 #include "postgres.h"
-#include "cstore_fdw.h"
-#include "cstore_metadata_serialization.h"
+#include "../../include/cstore/cstore_fdw.h"
+#include "../../include/cstore/cstore_metadata_serialization.h"
 #include "cstore.pb-c.h"
 #include "access/tupmacs.h"
 
